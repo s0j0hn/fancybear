@@ -4,9 +4,10 @@ The code provides a communication channel for the attacker and infected client. 
 
 ### Some artifacts are summorized below
 - Comments are in english, with a lot of grammar mistakes
-- Subject of an email is: '**piradi nomeri**'. This is Georgian language
-- It saves files with **dataluri_**timetsamp.dat. 'Dataluri' is also Georgian for "details".
-- In the email body it uses the word: "**gamarjoba**". Meaning 'Hello' in Russian and Georgian.
+- Subject of an email is: '**piradi nomeri**'. This means Personal Number in Georgian
+- It saves files with **detaluri_**timetsamp.dat. 'Detaluri' is also Georgian for "details".
+- In the email body it uses the word: "**gamarjoba**". Meaning 'Hello' in  Georgian.
+
 
 ### These are the Gmail account details used, I've verified they once worked (but not anymore!)
 - POP3_MAIL_IP = 'pop.gmail.com'  
@@ -24,3 +25,6 @@ The code provides a communication channel for the attacker and infected client. 
 - XAS_GATE = '/updates/'
 
 **The code is completely left as found on the original server, including the log files.**
+
+**ESET** has the complete source code of XAgent, read their report here:
+http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf
